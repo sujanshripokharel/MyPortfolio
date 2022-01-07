@@ -5,6 +5,10 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 8px 8px #e5d5d517 inset;
+}
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {

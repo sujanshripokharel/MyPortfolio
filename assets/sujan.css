@@ -4,11 +4,18 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+  background-color: black;
 }
+
+
 img {
+  
   border-radius: 50%;
   box-shadow: 0 0 8px 8px #e5d5d517 inset;
 }
+
+
+
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -46,3 +53,5 @@ img {
     min-height: 400px;
   }
 }
+
+/* vanimation text*/

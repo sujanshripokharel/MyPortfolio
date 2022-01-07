@@ -26,13 +26,13 @@ img {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("/assets/images/bg3.jpeg");
+  background-image: url("./images/bg3.jpeg");
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("/assets/images/bg4.jpeg");
+  background-image: url("./images/bg4.jpeg");
   min-height: 400px;
 }
 

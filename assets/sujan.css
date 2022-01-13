@@ -5,16 +5,14 @@ body, html {
   color: #777;
   line-height: 1.8;
   background-color: black;
+  background-size: cover;
 }
-
 
 img {
   
   border-radius: 50%;
   box-shadow: 0 0 8px 8px #e5d5d517 inset;
 }
-
-
 
 
 /* Create a Parallax Effect */
@@ -54,4 +52,87 @@ img {
   }
 }
 
-/* vanimation text*/
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.circle1{
+display: block;
+top:16px;
+left:16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f2f5f5 #f70612 #f2f5f5 #420cd6; 
+    animation: animateCircle2 5s linear infinite;
+
+}
+
+.circle2{
+position:  absolute;
+top:30px;
+left:95px;
+width: calc(100% - 40px);
+height: calc(100% - 40px);
+border-radius: 50%;
+background: url(./images/sujan.PNG);
+background-size: cover;
+
+}
+
+
+@keyframes animateCircle2 {
+  0% 
+  {
+    transform: rotate(0deg);
+
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+
+}
+
+.bgblack{
+  background:black;
+}
+
+/* vanimation text
+.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  
+
+}
+
+.circle1{
+
+    position: absolute;
+    
+    top:0%;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f1c40f #e74c3c #9b59b6 #2ecc71; 
+    animation: animateCircle1 5s linear infinite;
+    
+  }
+
+*/
